@@ -1,0 +1,9 @@
+numpy
+scipy
+six
+mpi4py
+tensorflow-gpu>=1.4
+cached_property
+python-dateutil
+tqdm
+matplotlib
