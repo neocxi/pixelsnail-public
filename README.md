@@ -26,7 +26,7 @@ You can download our pretrained (TensorFlow) [CIFAR10 model](https://s3.amazonaw
 ```
 python train.py \
        --data_set=cifar \
-       --model=h12_pool2_smallkey \
+       --model=h12_noup_smallkey \
        --nr_logistic_mix=10 \
        --nr_filters=256 \
        --batch_size=8 \
@@ -45,7 +45,7 @@ python train.py \
        --nr_filters=256 \
        --batch_size=8 \
        --init_batch_size=8 \
-       --learning_rate=0.0001 \
+       --learning_rate=0.001 \
        --dropout_p=0.0 \
        --polyak_decay=0.9997 \
        --save_interval=1
